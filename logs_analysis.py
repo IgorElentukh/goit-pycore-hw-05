@@ -46,7 +46,7 @@ def display_log_counts(counts: dict):
 
 def main():
     if len(sys.argv) < 2:
-        print("Правильне використання: python main.py [шлях_до_файлу] [рівень(опціонально)]")
+        print("Правильне використання: python logs_analysis.py [path] [level(optional)]")
         return
 
     file_path = sys.argv[1]
